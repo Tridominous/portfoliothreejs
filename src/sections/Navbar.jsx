@@ -11,7 +11,7 @@ const NavItems = () => {
             ))}
         </ul>
     )
-}
+} 
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
