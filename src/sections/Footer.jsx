@@ -10,13 +10,17 @@ const Footer = () => {
 
         <div className="flex gap-3">
             <div className="social-icon">
-                <img src="/assets/github.svg" alt="github" className="w-1/2 h-1/2"/>
+            <a href="https://github.com/Tridominous" target="_blank" className="w-1/2 h-1/2">
+                <img src="/assets/github.svg" alt="github" />
+            </a>
             </div>
-            <div className="social-icon">
+            {/* <div className="social-icon">
                 <img src="/assets/icons8-x.svg" alt="twitter" className="w-1/2 h-1/2 bg-white"/>
-            </div>
+            </div> */}
             <div className="social-icon">
-                <img src="/assets/linkedin2.svg" alt="linkedin" className="w-1/2 h-1/2 bg-white"/>
+            <a href="https://www.linkedin.com/in/james-mou/" target="_blank" className="w-1/2 h-1/2 bg-white">
+                <img src="/assets/linkedin2.svg" alt="linkedin" />
+            </a>
             </div>
             {/* <div className="social-icon">
                 <img src="/assets/notion.svg" alt="notion" className="w-1/2 h-1/2"/>
